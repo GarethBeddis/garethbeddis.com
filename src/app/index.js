@@ -1,11 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-
-const title = 'React Webpack Babel Boilerplate'
+import App from './app'
 
 ReactDOM.render(
-  <div>{title}</div>,
+  <App />,
   document.getElementById('app')
 )
-
-module.hot.accept()
